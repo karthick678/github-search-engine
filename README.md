@@ -1,1 +1,1 @@
-Github Username search engine based on React js
+Github user name and repo search engine
