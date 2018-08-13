@@ -1,0 +1,225 @@
+.repositories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.repositories .repository {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.repositories .repository__container {
+    width: 20%;
+}
+
+.repositories .repository__container img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.repositories .repository__content {
+    width: 80%;
+    flex-shrink: 1;
+    display: flex;
+}
+
+.repositories .repository__content .repo {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.repo {
+    color: #767676;
+    font-size: 12px;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.repo .repo_fullName {
+    display: block;
+    font-size: 11px;
+    color: #545252;
+}
+
+.repo .repo__otherInfo ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.repo .repo__otherInfo ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.repo .repo__otherInfo ul li:nth-child(1) {
+    color: #767676;
+    flex: 2;
+    justify-content: flex-start;
+}
+
+.repo .repo__otherInfo ul li:nth-child(2) {
+    background: #0275d8;
+}
+
+.repo .repo__otherInfo ul li:nth-child(3) {
+    background: #d9534f;
+}
+
+.repo .repo__otherInfo ul li:nth-child(4) {
+    background: #4CAF50;
+}
+
+.repo .repo_lastUpdated {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.repo .repo__description {
+    flex: 1 0 auto;
+}
+
+.repo .repo-language-color.null:before {
+    display: none;
+}
+
+.repo .repo-language-color:before {
+    content: "";
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 6px;
+}
+
+.repo .repo-language-color.javascript:before {
+    background-color: #f1e05a;
+}
+
+.repo .repo-language-color.html:before {
+    background-color: #e34c26;
+}
+
+.repo .repo-language-color.css:before {
+    background-color: #563d7c;
+}
+
+.repo .repo-language-color.java:before {
+    background-color: #b07219;
+}
+
+.repo a {
+    color: #4078c0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+}
+
+.repo a:hover {
+    text-decoration: underline;
+}
+
+.repo a:hover span.repo_fullName {
+    color: #545252;
+}
+
+.repo .repo__codePercentage ul {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    color: #000;
+}
+
+.repo .repo__codePercentage ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px #fff solid;
+    padding: 10px;
+}
+
+.repo .repo__codePercentage ul li:last-child {
+    border-right: none;
+}
+
+.repositories-wrapper .container h4 {
+    margin-top: 0;
+}
+
+.repositories-wrapper .container ul li {
+    display: flex;
+    padding: 5px 5px 5px 10px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.repositories-wrapper .container ul li:nth-child(odd) {
+    background: #ecebeb;
+}
+
+.repositories-wrapper .container ul li span:nth-child(1) {
+    flex: 1;
+}
+
+.repositories-wrapper .container ul li span:nth-child(2) {
+    border-radius: 50%;
+    border: 1px #0275d8 solid;
+    background: #4caf50;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repositories-wrapper .repositories {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.repositories-wrapper .repositories .repository {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.repositories-wrapper .repositories .repository__container {
+    width: 20%;
+}
+
+.repositories-wrapper .repositories .repository__container img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.repositories-wrapper .repositories .repository__content {
+    width: 80%;
+    flex-shrink: 1;
+    display: flex;
+}
+
+.repositories-wrapper .repositories .repository__content .repo {
+    width: 100%;
+    margin-bottom: 0;
+}

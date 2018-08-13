@@ -1,0 +1,93 @@
+.wrapper .aside .avatarContainer {
+    width: 100%;
+}
+
+.wrapper .aside .avatarContainer .profile-img {
+    display: block;
+    max-width: 100%;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.wrapper .aside .avatarContainer .name {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.wrapper .aside .avatarContainer .userName {
+    font-size: 20px;
+    color: #666;
+}
+
+.wrapper .aside .avatarContainer .viewProfile {
+    margin: 20px 0;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+    background-image: linear-gradient(#fcfcfc, #eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .aside .otherInfo {
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px #d2cdcd solid;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.wrapper .aside .otherInfo div {
+    word-break: break-all;
+}
+
+.wrapper .aside .otherInfo div .fa {
+    padding-right: 5px;
+    color: #999;
+    font-size: 14px;
+}
+
+.wrapper .aside .otherInfo ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.wrapper .aside .otherInfo ul li {
+    color: #fff;
+    padding: 8px 0;
+    flex: 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .aside .otherInfo ul li .number {
+    padding-right: 4px;
+}
+
+.wrapper .aside .otherInfo ul li:nth-child(1) {
+    background: #5bc0de;
+}
+
+.wrapper .aside .otherInfo ul li:nth-child(2) {
+    background: #0275d8;
+}
+
+.wrapper .aside .otherInfo ul li:nth-child(3) {
+    background: #d9534f;
+}
+
+.wrapper .aside .otherInfo ul li:nth-child(4) {
+    background: #373a3c;
+}
